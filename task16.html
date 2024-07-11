@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UI of Own Profile </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="task16.css">
+
+  <!--google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <img src="./logo22-removebg-preview.png" alt="" height="50px" width="150px">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white" href="#">Message</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Docs</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <img src="./bell.png" alt="" height="30px" width="30px" class="ms-2 me-2">
+          <img src="./user.png" alt="" height="40px" width="40px">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--main section-->
+
+  <div class="row ">
+    <div class="d-flex flex-column flex-md-row">
+      <div class="col-md-3 ms-5">
+
+        <div class="container mt-4">
+          <div class="row justify-content-center">
+            <div class="">
+              <div class="card text-center">
+                <!-- Upper Part with Background Image -->
+                <div class="card-header bg-light p-4"
+                  style="background-image: url('./img3.webp'); background-size: cover; background-position: center;">
+                  <!-- Circular Image in the middle, with margin for overlap -->
+                  <div class="d-flex justify-content-center">
+                    <img src="./Y_B_S_2.jpeg " alt="User Avatar" class="rounded-circle bg-white"
+                      style="width: 100px; height: 100px; border: 5px solid white; position: relative; top: 80px;" />
+
+                  </div>
+                </div>
+                <!-- Lower Part with Text -->
+                <div class="card-body pt-5"> <!-- Increased padding to accommodate lower position -->
+                  <h5>Adarsh Uchibagle</h5>
+                  <p>I wish you all the best for a prosperous future ahead!!</p>
+                  <!-- Sections for Friends and Enemies with a dividing border -->
+                  <div class="row mt-3"> <!-- Add spacing with margin-top -->
+                    <!-- Friends Section -->
+                    <div class="col-6  border-end"> <!-- Light border on the right to separate sections -->
+                      <h6>Friends</h6>
+                      <p>12 M</p>
+                    </div>
+                    <!-- Enemies Section -->
+                    <div class="col-6">
+                      <h6>Enemies</h6>
+                      <p>1</p>
+                    </div>
+                  </div>
+                  <!-- Add more user information as needed -->
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--About card started from here -->
+
+          <div class="card mt-3" style="width: auto;">
+            <div class="card-body">
+              <h5 class="card-title">About. <a href="#" id="anchor">Edit</a></h5>
+
+              <div class="img-info d-flex">
+                <img src="./calendar.png" height="15px" width="15px" alt="" class="mt-1">
+                <p class="ms-3">Went to <a href="#" > PJLCE, Nagpur</a></p>
+              </div>
+
+              <div class="img-info d-flex">
+                <img src="./multiple-users-silhouette.png" height="15px" width="15px" alt="" class="mt-1">
+                <p class="ms-3">Became friends with <a href="#" >Obama</a></p>
+              </div>
+
+              <div class="img-info d-flex">
+                <img src="./businessman.png" height="15px" width="15px" alt="" class="mt-1">
+                <p class="ms-3">Worked at <a href="#" > Github</a></p>
+              </div>
+
+              <div class="img-info d-flex">
+                <img src="./home.png" height="15px" width="15px" alt="" class="mt-1">
+                <p class="ms-3">Lives in  <a href="#" > Maharashtra, India</a></p>
+              </div>
+
+              <div class="img-info d-flex">
+                <img src="./location.png" height="15px" width="15px" alt="" class="mt-1">
+                <p class="ms-3">Went to <a href="#" > Nagpur-440008</a></p>
+              </div>
+
+            </div>
+          </div>
+
+
+          <!--image gallery-->
+
+          <div class="card mt-3" style="width: auto;">
+            <div class="card-body">
+              <h5 class="card-title">Photos <a href="#" id="anchor">Edit</a></h5>
+
+              <div class="images-grid d-flex mt-4">
+                <img src="./pic6.jpg"  alt="" class="ms-0 w-50">
+                <img src="./pic4.jpg"  alt="" class="ms-3 w-50">
+              </div>
+
+              <div class="images-grid d-flex mt-4">
+                <img src="./pic3.jpg"  alt="" class="ms-0 w-50">
+                <img src="./pic4.jpg"  alt="" class="ms-3 w-50">
+              </div>
+
+              <div class="images-grid d-flex mt-4">
+                <img src="./pic5.jpg"  alt="" class="ms-0 w-50">
+                <img src="./pic6.jpg"  alt="" class="ms-3 w-50">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- second column has been started-->
+
+      <div class="col-md-5 second-col mt-4 mb-5">
+
+        <div class="input-group mt-3 px-3">
+          <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)"
+            placeholder="Message">
+          <span class="input-group-text bg-body-secondary"><img src="./camera.png" alt="" height="20px"
+              width="20px"></span>
+        </div>
+
+        <div class="div-line mt-3 ">
+
+        </div>
+
+        <!--image and text has been started from here -->
+
+        <div class="img-div d-flex">
+
+          <div class="img mt-2">
+            <img src="./Y_B_S_2.jpeg" alt="User Avatar" class="rounded-circle bg-white"
+              style="width: 70px; height: 70px; border: 5px solid white; position: relative;" />
+          </div>
+
+          <div class="img-text mt-2">
+            <div class="double-display d-flex justify-content-between">
+              <h5>Adarsh Uchibagle</h5>
+              
+                
+                <div class="img-time pe-2 ">4 Min</div>
+             
+            </div>
+            <p class="me-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti quas, dicta suscipit placeat sit
+              repudiandae ad ipsum asperiores quis! Aliquid quas, quis ratione numquam voluptates veniam adipisci hic
+              commodi obcaecati dolorum soluta vitae distinctio magnam molestiae, facere laborum. Voluptatibus iure ad
+              reprehenderit dolores deserunt quibusdam pariatur molestias nihil quae obcaecati.</p>
+
+
+            <div class="img-grid">
+              <div class="row">
+                <div class="d-flex">
+                  <img src="./img4.webp" class="css-class p-2 pb-0 pe-0" alt="">
+                  <img src="./img3.webp" class="css-class-2 p-2 pb-0"  alt="">
+                </div>
+              </div>
+              <!------>
+              <div class="row ">
+                <div class="d-flex">
+                  <img src="./img4.webp" class="css-class-2 p-2 pe-0" alt="">
+                  <img src="./img3.webp" class="css-class p-2 "  alt="">
+                </div>
+              </div>
+
+            
+            </div>
+
+            <!--jacon person-->
+
+            <div class="jacon ">
+
+              <div class="img2-div d-flex">
+                <div class="img mt-2">
+                  <img src="./jacob.jpg" alt="User Avatar" class="rounded-circle bg-white"
+                    style="width: 50px; height: 50px; border: 5px solid white; position: relative;" />
+                </div>
+
+                <div class="text2-img mt-2 ms-2">
+                  <p><span class="fw-bolder">Jacon Thornton:</span> Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Alias quisquam, itaque, beatae necessitatibus sunt perspiciatis fugit illum magnam quidem
+                    magni maxime, sit accusantium dicta atque exercitationem? Excepturi iste omnis dolore?</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="mark-toto d-flex">
+              <div class="img2-div ">
+                <div class="img mt-2">
+                  <img src="./mark-otto.jpg" alt="User Avatar" class="rounded-circle bg-white"
+                    style="width: 50px; height: 50px; border: 5px solid white; position: relative;" />
+                </div>
+              </div>
+              <div class="text2-img mt-2 ms-2">
+                <p><span class="fw-bolder">Mark Ottoo:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias quisquam, itaque, beatae necesdicta atque exercitationem? Excepturi iste omnis dolore?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--next part-->
+
+        <div class="div-line mt-3 ">
+
+        </div>
+
+
+
+        <div class="img-div d-flex">
+
+          <div class="img mt-2 me-2">
+            <img src="./jacob.jpg" alt="User Avatar" class="rounded-circle bg-white"
+              style="width: 70px; height: 70px; border: 5px solid white; position: relative;" />
+          </div>
+
+          <div class="img-text  mt-2">
+            <div class="double-display d-flex justify-content-between  ">
+              <h5>Jacob Thornton</h5>
+                 
+                    <div class="img-time pe-2 ">12 Min</div>
+        
+            </div>
+            <p>Donec ipsum dolor sit, amet consectetur adipisicing elit. Deleniti quas, dicta suscipit placeat sit
+              repudiandae ad ipsum asperiores quis! Aliquid quas, quis ratione numquam voluptates veniam adipisci hic
+              commodi obcaecati dolorum soluta vitae distinctio magnam molestiae, facere laborum. Voluptatibus iure ad
+              reprehenderit dolores deserunt quibusdam pariatur molestias nihil quae obcaecati.</p>
+          </div>
+        </div>
+
+
+        <!---->
+
+        <div class="div-line mt-3 ">
+
+        </div>
+
+
+
+        <div class="img-div d-flex">
+
+          <div class="img mt-2 me-2">
+            <img src="./mark-otto.jpg" alt="User Avatar" class="rounded-circle bg-white"
+              style="width: 70px; height: 70px; border: 5px solid white; position: relative;" />
+          </div>
+
+          <div class="img-text  mt-2">
+            <div class="double-display d-flex justify-content-between">
+              <h5>Mark otto </h5>
+                    <div class="img-time  pe-2">34 Min</div> 
+            </div>
+            <p>Donec ipsum dolor sit, amet consectetur adipisicing elit. Deleniti quas, dicta suscipit placeat sit
+              repudiandae ad ipsum asperiores quis! Aliquid quas, quis ratione numquam voluptates veniam adipisci hic
+              commodi obcaecati dolorum soluta vitae distinctio magnam molestiae, facere laborum. Voluptatibus iure ad
+              reprehenderit  deserunt quibusdam pariatur molestias nihil quae obcaecati.</p>
+
+            <div>
+              <img src="./pic5.jpg"  alt="" class="mb-5 w-100 h-100 pe-3">
+            </div>
+
+            <!--jacon person-->
+
+            <div class="jacon ">
+
+              <div class="img2-div d-flex">
+                <div class="img mt-2">
+                  <img src="./jacob.jpg" alt="User Avatar" class="rounded-circle bg-white"
+                    style="width: 50px; height: 50px; border: 5px solid white; position: relative;" />
+                </div>
+
+                <div class="text2-img mt-2 ms-2">
+                  <p><span class="fw-bolder">Jacon Thornton:</span> Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Alias quisquam, itaque, beatae necessitatibus sunt perspiciatis fugit illum magnam quidem
+                    magni maxime, sit accusantium dicta atque exercitationem? Excepturi iste omnis dolore?</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      
+    <div class="col-md-3  p-4">
+      <div class="card" style="width: auto;">
+        <div class="card-body bg-body-secondary bg-gradient">
+          <p><span class="fw-bolder">Visit your  profile! </span>Check your self, you aren't looking well.</p>
+        </div>
+      </div>
+
+      <!--second card-->
+
+      <div class="card mt-3 " style="width: auto;">
+        <h5 class="text-start ms-2 mt-3">Sponsored</h5>
+        <img src="./pic5.jpg" class=" m-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">It might be time to visit Iceland.</h5>
+          <p class="card-text">Iceland is so chill quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-primary">Buy a ticket</a>
+        </div>
+      </div>
+
+      <div class="card mt-3" style="width: auto;">
+        <div class="card-body">
+          <h5 class="card-title">Likes. <a href="#" id="anchor">View all</a></h5>
+
+          <div class="img2-div d-flex ">
+            <div class="img mt-2">
+              <img src="./Y_B_S_2.jpeg" alt="User Avatar" class="rounded-circle bg-white"
+                style="width: 80px; height: 80px; border: 5px solid white; position: relative;" />
+            </div>
+            <div class="name-div mt-2">
+              <h5>Adarsh Uchibagle</h5>
+              <a href="#" class="btn btn-outline-primary"><img src="./add-friend.png" height="20px" width="20px" alt=""> Follow</a>
+            </div>
+          </div>
+          
+
+          
+
+
+
+          <div class="img2-div d-flex ">
+            <div class="img mt-2">
+              <img src="./mark-otto.jpg" alt="User Avatar" class="rounded-circle bg-white"
+                style="width: 80px; height: 80px; border: 5px solid white; position: relative;" />
+            </div>
+            <div class="name-div mt-2">
+              <h5>Mark otto @mda</h5>
+              <a href="#" class="btn btn-outline-primary"><img src="./add-friend.png" height="20px" width="20px" alt=""> Follow</a>
+            </div>
+          </div>
+          </div>
+
+          <div class="div-line mt-3 ">
+
+          </div>
+          <div class="bg-body-secondary">
+            <p class="m-2 ">Dave really likes this nerds. No one knows why though.</p>
+          </div>
+        </div>
+
+
+        <div class="card  mt-3 " style="width: 18rem;">
+          <p class="m-3">@2018 Bootstrap <a href="#">About Help  Privacy Cookies Ads Info Brand Blog Status Apps jobs Advertise.</a></p>
+          </div>
+        </div>
+
+    </div>
+
+    
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

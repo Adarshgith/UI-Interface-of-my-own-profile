@@ -1,0 +1,28 @@
+.second-col{
+    border: 1px  solid gray;
+}
+.div-line{
+    background-color: rgb(215, 214, 214);
+    height: 1px;
+    width: auto;
+}
+#anchor{
+    font-size: 13px;
+}
+a{
+    text-decoration-line: none;
+}
+.images-grid{
+    height: auto;
+    width: auto;
+}
+.css-class{
+    width: 60%;
+
+    height: 100%;
+}
+.css-class-2{
+    width: 40%;
+
+    height: 100%;
+}
